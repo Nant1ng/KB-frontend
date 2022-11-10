@@ -1,0 +1,28 @@
+@use '../constants/colors'
+@use '../constants/fonts'
+
+.products
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  font-family: fonts.$fontstack
+
+  a
+    background-color: colors.$white
+    font-family: fonts.$fontstack
+    font-weight: bold
+    border: none
+    padding: 0.5rem 1rem
+    text-align: center
+    text-decoration: none
+    display: inline-block
+    margin: 0.5rem
+    cursor: pointer
+  
+  div
+    display: flex
+    justify-content: center 
+    flex-wrap: wrap
+    max-width: 66rem
+

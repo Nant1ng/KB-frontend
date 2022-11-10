@@ -1,0 +1,35 @@
+@use '../constants/colors'
+@use '../constants/fonts'
+
+.product
+  display: flex
+  flex-direction: column
+  font-family: fonts.$fontstack
+
+  div
+    display: flex
+    justify-content: flex-start
+    max-width: 33rem
+    height: 40rem
+    padding: 2rem 1rem 1rem
+
+  img 
+    width: 100% 
+    height: 50%
+
+  h2
+    margin: 0
+
+  p
+    font-size: 2rem  
+
+.imgDesc
+  position: absolute
+  width: 19rem
+  height: 1rem
+
+  p
+    position: absolute
+    bottom: 21rem
+    font-size: 1.3rem
+    color: colors.$white
